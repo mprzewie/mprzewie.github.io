@@ -21,7 +21,14 @@
 title: Marcin Przewięźlikowski
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to the personal webpage of Marcin Przewięźlikowski.
+  Hi! My name is Marcin and I am an AI Developer @ <a href="https://shelfwise.ai">ShelfWise</a>. 
+  I am passionate about all things Machine Learning, comics, cycling and skiing. 
+
+  <p>
+  In 2021 I received a Master's Degree in Computer Science from Jagiellonian University and in 2019, a BSc. of Engineering from AGH University of Science and Technology.
+  <p>
+  I am based in Cracow, Poland.
+  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://mprzewie.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -32,6 +39,12 @@ theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 logo: /assets/img/logo.jpg
+
+external_urls:
+  github: https://github.com/mprzewie
+  scholar: https://scholar.google.com/citations?hl=pl&user=yQkER-MAAAAJ
+  linkedin: https://www.linkedin.com/in/marcin-przewi%C4%99%C5%BAlikowski-aa5b82135/
+  shelfwise: https://shelfwise.ai
 
 
 

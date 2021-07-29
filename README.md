@@ -1,3 +1,3 @@
 ## mprzewie.github.io
 
-Personal webpage.
+Personal webpage made with Jekyll.
