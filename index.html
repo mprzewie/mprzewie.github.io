@@ -1,0 +1,27 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+
+---
+
+<h1>News</h1>
+
+<ul style="padding-left: 20px;">
+{% for n in site.data.news limit:10 %}
+    <li style="margin: 8px 0">
+        <i>{{n.date}}</i> - <b>{{n.content}}</b>
+        {% if n.more %}
+        <br>
+        <a href="{{ n.more }}" class="flat">
+           read on <i class="fa fa-arrow-right"></i>
+        </a>
+        {% endif %}
+
+    </li>
+
+
+{% endfor %}
+</ul>
+

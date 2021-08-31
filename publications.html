@@ -1,0 +1,40 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+
+---
+
+<h1>Selected papers</h1>
+
+<div class="papers-block">
+    <ul></ul>
+    {% for p in site.data.papers %}
+        <div class="paper-cell" >
+            <p>
+                <h3>{{ p.title }}</h3>
+                <b>{{ p.authors }}</b>
+                <br>
+                <i>{{ p.published_at }}</i> {{ p.date }}
+
+                <br>
+                {% if p.paper %}
+                <a href="{{ p.paper }}" class="flat"> paper </a>
+                {% endif %}
+
+
+                {% if p.poster %}
+                <a href="{{ p.poster }}" class="flat"> poster </a>
+
+                {% endif %}
+
+                {% if p.code %}
+                <a href="{{ p.code }}" class="flat">code <i class="fa fa-github"></i></a>
+
+                {% endif %}
+
+            </p>
+        </div>
+    {% endfor %}
+</div>

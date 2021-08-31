@@ -3,3 +3,29 @@
   height: 15px;
   width: 15px;
 }
+
+.nav-href {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Courier;
+}
+
+a.flat {
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    background: #3c6aac;
+    -webkit-transition: all,0.1s;
+    -moz-transition: all,0.1s;
+    transition: all,0.1s;
+    padding: 0.2em 0.8em 0.2em 0.8em;
+    border-radius: 0.5em;
+}
+
+.paper-cell {
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
