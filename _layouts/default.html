@@ -19,23 +19,23 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <h1><a style="font-family: Courier" href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         <p>
-          <a href="{{ site.external_urls.github }}" class="flat-cv">
+          <a href="{{ site.external_urls.github }}" class="flat">
             <i class="fa fa-github"></i>
           </a>
-          <a href="{{ site.external_urls.scholar }}" class="flat-cv">
+          <a href="{{ site.external_urls.scholar }}" class="flat">
             <i class="ai ai-google-scholar"></i> 
           </a>
-          <a href="{{ site.external_urls.linkedin }}" class="flat-cv"><i class="fa fa-linkedin"></i> </a>
+          <a href="{{ site.external_urls.linkedin }}" class="flat"><i class="fa fa-linkedin"></i> </a>
           <a href="{{ site.external_urls.shelfwise }}">
             <i class="sw_icon"></i>
           </a>
-         </p>
+       </p>
 
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+          <img style="border-radius: 25%" src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
@@ -49,6 +49,21 @@
         </ul>
         {% endif %}
       </header>
+
+
+      <section>
+        <div class="nav-href">
+
+          <nav>
+            <a href="/">Home</a> |
+            <a href="/publications">Research</a> |
+            <a href="/contact">Contact</a>
+
+          </nav>
+        </div>
+
+      </section>
+
       <section>
 
       {{ content }}
