@@ -1,5 +1,13 @@
 [
   {
+    "title": "MisConv: Convolutional Neural Networks for Missing Data",
+    "authors":"Marcin Przewięźlikowski, Marek Śmieja, Łukasz Struski and Jacek Tabor",
+    "published_at": "Winter Conference on Applications of Computer Vision",
+    "date": "January 2022",
+    "paper": "https://arxiv.org/abs/2110.14010",
+    "code":"https://github.com/mprzewie/dmfa_inpainting"
+  },
+  {
     "title": "Estimating conditional density of missing values using deep Gaussian mixture model",
     "authors": "Marcin Przewięźlikowski, Marek Śmieja and Łukasz Struski",
     "published_at": "International Conference on Neural Information Processing",

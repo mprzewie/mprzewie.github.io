@@ -21,7 +21,8 @@
 title: Marcin Przewięźlikowski
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hello there! My name is Marcin and I am an AI Developer @ <a href="https://shelfwise.ai">ShelfWise.ai</a>.
+  Hello there! My name is Marcin and I am a PhD student @ <a href="https://gmum.net/">GMUM</a> / <a href="https://matinf.uj.edu.pl/en_GB/">Jagiellonian University</a>
+  and a Machine Learning Engineer @ <a href="https://shelfwise.ai">ShelfWise.ai</a>.
   I am passionate about all things Machine Learning, comics, cycling and skiing. 
 
   <p>
@@ -33,6 +34,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: https://mprzewie.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  mprzewie
+mail: "marcin.przewiezlikowski [on] student.uj.edu.pl"
 
 # Build settings
 theme: jekyll-theme-minimal
