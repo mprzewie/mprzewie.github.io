@@ -1,0 +1,23 @@
+[
+    {
+        "year": "2021 / 2022",
+        "semesters": [
+            {   
+                "name": "spring",
+                "classes": [
+                    {
+                        "name": "Wybrane Zagadnienia Uczenia Maszynowego",
+                        "when": "Fridays, 10:30",
+                        "where": "room 0017"
+                    },
+                    {
+                        "name": "Podstawy Sztucznej Inteligencji",
+                        "when": "Wendesdays, 9:45",
+                        "where": "room 0053"
+                    }
+                ]
+            }
+        ]
+        
+    }
+]

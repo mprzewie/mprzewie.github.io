@@ -1,0 +1,33 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+
+---
+
+<p>
+    <b>Consultations: </b>I'm available in the room 2147 of UJ Faculty of Mathematics and Computer Science 
+    upon <a href="/contact">prior arrangement</a>
+</p>
+
+{% for year in site.data.teaching %}
+    {% for semester in year.semesters %}
+        <p>
+        <h3>{{year.year}} - {{ semester.name }}</h3>
+        {% for class in semester.classes %}
+            <p>
+            <h4>{{ class.name }}</h4>
+            {{ class.when }}, {{ class.where }}.
+            </p>
+        {% endfor %}
+        </p>
+    {% endfor %}
+{% endfor %}
+
+
+
+
+
+
+
