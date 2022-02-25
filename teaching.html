@@ -19,6 +19,10 @@ layout: home
             <p>
             <h4>{{ class.name }}</h4>
             {{ class.when }}, {{ class.where }}.
+            {% if class.page %}
+                <br>
+                <a href="{{ class.page }}"> Course page </a>
+            {% endif %}
             </p>
         {% endfor %}
         </p>

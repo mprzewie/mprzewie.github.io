@@ -8,7 +8,8 @@
                     {
                         "name": "Wybrane Zagadnienia Uczenia Maszynowego",
                         "when": "Fridays, 10:30",
-                        "where": "room 0017"
+                        "where": "room 0017",
+                        "page": "https://github.com/gmum/wzum-22"
                     },
                     {
                         "name": "Podstawy Sztucznej Inteligencji",
