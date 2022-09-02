@@ -6,34 +6,46 @@ layout: home
 
 ---
 
-<h1> Papers</h1>
+<h1>Selected publications</h1>
 
 <div class="papers-block">
     {% for p in site.data.papers %}
         <div class="paper-cell" >
-            <p>
-                <h3>{{ p.title }}</h3>
-                <b>{{ p.authors }}</b>
-                <br>
-                <i>{{ p.published_at }}</i> {{ p.date }}
 
-                <br>
-                {% if p.paper %}
-                <a href="{{ p.paper }}" class="flat"> paper </a>
+                
+                {% if p.img %}
+                    <div style="vertical-align: middle;  float: left; width: 25% " >
+                        <img src=" /assets/img/pub/{{ p.img }}" alt="{{ p.title }}">
+                    </div>
                 {% endif %}
+                 
+                 <div style="width: 70%; float:right; vertical-align: middle;">
+                    <b>{{ p.title }}</b>
 
+                    {{ p.authors }}
+                    <br>
+                    <i>{{ p.published_at }}</i> - {{ p.date }}
+    
+                    <br>
 
-                {% if p.poster %}
-                <a href="{{ p.poster }}" class="flat"> poster </a>
+                    {% if p.paper %}
+                        <a href="{{ p.paper }}" class="flat"> paper </a>
+                    {% endif %}
+    
+    
+                    {% if p.poster %}
+                        <a href="{{ p.poster }}" class="flat"> poster </a>
+    
+                    {% endif %}
+    
+                    {% if p.code %}
+                        <a href="{{ p.code }}" class="flat">code <i class="fa fa-github"></i></a>
+                    {% endif %}
+                    <br>
+                </div>
+                
 
-                {% endif %}
-
-                {% if p.code %}
-                <a href="{{ p.code }}" class="flat">code <i class="fa fa-github"></i></a>
-
-                {% endif %}
-
-            </p>
+            <!-- </p> -->
         </div>
     {% endfor %}
 </div>

@@ -29,9 +29,6 @@
             <i class="ai ai-google-scholar"></i> 
           </a>
           <a href="{{ site.external_urls.linkedin }}" class="flat"><i class="fa fa-linkedin"></i> </a>
-          <a href="{{ site.external_urls.shelfwise }}">
-            <i class="sw_icon"></i>
-          </a>
        </p>
 
         {% if site.logo %}
@@ -58,7 +55,9 @@
             <a href="/">Home</a> |
             <a href="/publications">Research</a> |
             <a href="/teaching">Teaching</a> |
-            <a href="/contact">Contact</a>
+            <a href="/contact">Contact</a> 
+
+
 
           </nav>
         </div>
@@ -72,7 +71,7 @@
       </section>
       <footer>
         {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        <p><small>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</small></a></p>
         {% endif %}
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
