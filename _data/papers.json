@@ -28,14 +28,6 @@
     "img": "dmfa.png"
   },
   {
-    "title": "Estimating conditional density of missing values using deep Gaussian mixture model",
-    "authors": "Marcin Przewięźlikowski, Marek Śmieja and Łukasz Struski",
-    "published_at": "ICML Workshop on the Art of Learning with Missing Values (Artemiss 2020)",
-    "date": "July 2020",
-    "paper": "https://openreview.net/forum?id=VR6mXmaHacL",
-    "code": "https://github.com/mprzewie/dmfa_inpainting"
-  },
-  {
     "title": "Support for High-Level Quantum Bayesian Inference",
     "authors": "Marcin Przewięźlikowski, Michał Grabowski, Katarzyna Rycerz and Dariusz Kurzyk",
     "published_at": "International Conference on Computational Science",

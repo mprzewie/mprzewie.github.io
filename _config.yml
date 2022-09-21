@@ -31,9 +31,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://mprzewie.github.io # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+twitter_username: pszwnzl
 github_username:  mprzewie
-mail: "marcin.przewiezlikowski [on] student.uj.edu.pl"
+mail: "marcin.przewiezlikowski [on] doctoral.uj.edu.pl"
 
 # Build settings
 theme: jekyll-theme-minimal
@@ -47,6 +47,7 @@ external_urls:
   linkedin: https://www.linkedin.com/in/marcin-przewi%C4%99%C5%BAlikowski-aa5b82135/
   shelfwise: https://shelfwise.ai
   usos: https://www.usosweb.uj.edu.pl/kontroler.php?_action=katalog2/osoby/pokazOsobe&os_id=278780
+  twitter: https://twitter.com/pszwnzl
 
 
 

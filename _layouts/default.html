@@ -29,10 +29,11 @@
             <i class="ai ai-google-scholar"></i> 
           </a>
           <a href="{{ site.external_urls.linkedin }}" class="flat"><i class="fa fa-linkedin"></i> </a>
+          <a href="{{ site.external_urls.twitter }}" class="flat"><i class="fa fa-twitter"></i> </a>
        </p>
 
         {% if site.logo %}
-          <img style="border-radius: 25%" src="{{site.logo | relative_url}}" alt="Logo" />
+          <img style="border-radius: 25%; height: 250px;" src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>

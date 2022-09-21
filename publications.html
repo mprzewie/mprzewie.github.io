@@ -8,20 +8,27 @@ layout: home
 
 <h1>Selected publications</h1>
 
+<p>
+    For the full list of my papers, see my <a href="{{ site.external_urls.scholar }}">Google Scholar profile</a>.
+
+</p>
+
+
 <div class="papers-block">
     {% for p in site.data.papers %}
         <div class="paper-cell" >
 
                 
                 {% if p.img %}
-                    <div style="vertical-align: middle;  float: left; width: 25% " >
+                    <div style="float: left; width: 35%; display: flex; align-items: center; justify-content: center;" >
                         <img src=" /assets/img/pub/{{ p.img }}" alt="{{ p.title }}">
                     </div>
+                    <div style="float: left; width: 5%; display: flex; align-items: center; justify-content: center;"></div>
                 {% endif %}
                  
-                 <div style="width: 70%; float:right; vertical-align: middle;">
+                 <div style="width: 55%; float:right; justify-content: right; text-align: center;">
                     <b>{{ p.title }}</b>
-
+                    <br>
                     {{ p.authors }}
                     <br>
                     <i>{{ p.published_at }}</i> - {{ p.date }}
