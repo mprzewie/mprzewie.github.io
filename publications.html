@@ -32,6 +32,9 @@ layout: home
                     {{ p.authors }}
                     <br>
                     <i>{{ p.published_at }}</i> - {{ p.date }}
+                    {% if p.comment %}
+                    ({{ p.comment}})
+                    {% endif %}
     
                     <br>
 

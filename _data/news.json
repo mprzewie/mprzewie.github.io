@@ -1,5 +1,10 @@
 [
   {
+    "date": "05.01.2023",
+    "content": "<a href='https://arxiv.org/abs/2203.11378'>HyperShot: Few-Shot Learning by Kernel HyperNetworks</a> named a finalist of Paper Award at <a href='https://wacv2023.thecvf.com/home'>WACV 2023</a>!",
+    "more": "https://twitter.com/ilkedemir/status/1610779812020490241"
+  },
+  {
     "date": "04.10.2022",
     "content": "I have joined IDEAS NCBR, where I will work on Zero-Waste Machine Learning in Computer Vision in the group led by prof. Tomasz Trzciński.",
     "more": "https://ideas-ncbr.pl/en/research/zero-waste-machine-learning-in-computer-vision/"

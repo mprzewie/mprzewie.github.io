@@ -2,11 +2,13 @@
   {
     "title": "HyperShot: Few-Shot Learning by Kernel HyperNetworks",
     "authors":"Marcin Sendera, Marcin Przewięźlikowski, Konrad Karanowski, Maciej Zięba, Jacek Tabor, Przemysław Spurek",
-    "published_at": "to be published at Winter Conference on Applications of Computer Vision",
+    "published_at": "Winter Conference on Applications of Computer Vision",
     "date": "January 2023",
-    "paper": "https://arxiv.org/abs/2203.11378",
+    "paper": "https://openaccess.thecvf.com/content/WACV2023/html/Sendera_HyperShot_Few-Shot_Learning_by_Kernel_HyperNetworks_WACV_2023_paper.html",
     "code":"https://github.com/gmum/few-shot-hypernets-public",
-    "img": "hypershot.png"
+    "img": "hypershot.png",
+    "poster": "https://drive.google.com/file/d/1VRsfc2AKA_08r9-JBLS3bguLOLDbpk4V/view",
+    "comment": "<a href='https://twitter.com/ilkedemir/status/1610779812020490241'>Paper Award finalist</a>"
   },
   {
     "title": "MisConv: Convolutional Neural Networks for Missing Data",
@@ -15,7 +17,8 @@
     "date": "January 2022",
     "paper": "https://arxiv.org/abs/2110.14010",
     "code":"https://github.com/mprzewie/dmfa_inpainting",
-    "img": "misconv.png"
+    "img": "misconv.png",
+    "poster": "https://drive.google.com/file/d/15ubeEzVArDs3XUOPeeuT31nGu8zSPSf-/view?usp=sharing"
 
   },
   {
