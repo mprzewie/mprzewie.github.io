@@ -1,0 +1,52 @@
+venues:
+  - name: Machine Learning Summer School on Applications in Science
+    acronym: MLSS^S
+    year: 2023
+    kind: summer_school
+    activities:
+    - organizer
+  - name: Winter Conference on Applications in Computer Vision
+    acronym: WACV
+    year: 2023
+    kind: conference
+    activities: 
+    - poster
+    - reviewer
+  - name: Winter Conference on Applications in Computer Vision
+    acronym: WACV
+    year: 2022
+    kind: conference
+    activities: 
+    - poster
+  - name: Machine Learning Summer School on Applications in Neuroscience
+    acronym: MLSS^N
+    year: 2022
+    kind: summer_school
+    activities:
+    - reviewer
+  - name: International Conference on Neural Information Processing
+    acronym: ICONIP
+    year: 2020
+    kind: conference
+    activities:
+    - poster
+  - name: Eastern-European Machine Learning Summer School
+    acronym: EEML
+    year: 2020
+    kind: summer_school
+    activites:
+    - poster
+  - name: International Conference on Computational Science
+    acronym: ICCS
+    year: 2019
+    kind: conference
+    activities:
+    - poster
+  
+  
+
+  
+
+  
+
+
