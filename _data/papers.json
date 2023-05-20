@@ -1,8 +1,17 @@
 [
   {
+    "title": "The general framework for few-shot learning by kernel HyperNetworks",
+    "authors":"Marcin Sendera, Marcin Przewiȩźlikowski, Jan Miksa, Mateusz Rajski, Konrad Karanowski, Maciej Ziȩba, Jacek Tabor, Przemysław Spurek",
+    "published_at": "Machine Vision and Applications journal",
+    "date": "May 2023",
+    "paper": "https://link.springer.com/article/10.1007/s00138-023-01403-4",
+    "code":"https://github.com/gmum/few-shot-hypernets-public",
+    "img": "bayesianhypershot.png"
+  },
+  {
     "title": "HyperShot: Few-Shot Learning by Kernel HyperNetworks",
     "authors":"Marcin Sendera, Marcin Przewięźlikowski, Konrad Karanowski, Maciej Zięba, Jacek Tabor, Przemysław Spurek",
-    "published_at": "Winter Conference on Applications of Computer Vision",
+    "published_at": "Winter Conference on Applications of Computer Vision (WACV)",
     "date": "January 2023",
     "paper": "https://openaccess.thecvf.com/content/WACV2023/html/Sendera_HyperShot_Few-Shot_Learning_by_Kernel_HyperNetworks_WACV_2023_paper.html",
     "code":"https://github.com/gmum/few-shot-hypernets-public",
@@ -13,7 +22,7 @@
   {
     "title": "MisConv: Convolutional Neural Networks for Missing Data",
     "authors":"Marcin Przewięźlikowski, Marek Śmieja, Łukasz Struski and Jacek Tabor",
-    "published_at": "Winter Conference on Applications of Computer Vision",
+    "published_at": "Winter Conference on Applications of Computer Vision (WACV)",
     "date": "January 2022",
     "paper": "https://arxiv.org/abs/2110.14010",
     "code":"https://github.com/mprzewie/dmfa_inpainting",
@@ -24,7 +33,7 @@
   {
     "title": "Estimating conditional density of missing values using deep Gaussian mixture model",
     "authors": "Marcin Przewięźlikowski, Marek Śmieja and Łukasz Struski",
-    "published_at": "International Conference on Neural Information Processing",
+    "published_at": "International Conference on Neural Information Processing (ICONIP)",
     "date": "November 2020",
     "paper": "https://arxiv.org/abs/2010.02183",
     "code": "https://github.com/mprzewie/dmfa_inpainting",
@@ -33,7 +42,7 @@
   {
     "title": "Support for High-Level Quantum Bayesian Inference",
     "authors": "Marcin Przewięźlikowski, Michał Grabowski, Katarzyna Rycerz and Dariusz Kurzyk",
-    "published_at": "International Conference on Computational Science",
+    "published_at": "International Conference on Computational Science (ICCS)",
     "date": "June 2019",
     "paper": "https://www.researchgate.net/publication/333664506_Support_for_High-Level_Quantum_Bayesian_Inference",
     "poster": "https://docs.google.com/presentation/d/1XnXwIKJXxeaUXYBIgTr6rqcqEPXTxpaB9RRN9ARCgEg/edit?usp=sharing",
