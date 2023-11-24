@@ -1,5 +1,18 @@
 [
   {
+    "date": "24.11.2023",
+    "content": "I've been awarded the NCN PRELUDIUM 22 grant for project \"<a href='https://drive.google.com/file/d/1XGTwVnQCCJ7RGkc_7CFT-sh7vkmaDTTj/view'>Improving the transferability of self-supervised learning models</a>\"!",
+    "more": "https://ncn.gov.pl/aktualnosci/2023-11-23-wyniki-opus22-preludium25"
+  },
+  {
+    "date": "11.11.2023",
+    "content": "<a href='https://arxiv.org/abs/2306.06082'>Augmentation-aware Self-Supervised Learning with Conditioned Projector</a> accepted to <a href='https://sslneurips23.github.io/'>Self-Supervised Learning - Theory and Practice</a> workshop at NeurIPS 2023. See you in New Orleans!"
+  },
+  {
+    "date": "24.10.2023",
+    "content": "<a href='https://arxiv.org/abs/2308.09544'>Adapt Your Teacher: Improving Knowledge Distillation for Exemplar-free Continual Learning</a> accepted to <a href='https://wacv2024.thecvf.com/'>WACV 2024</a>!"
+  },
+  {
     "date": "25.08.2023",
     "content": "<a href='https://arxiv.org/abs/2308.09544'>Adapt Your Teacher: Improving Knowledge Distillation for Exemplar-free Continual Learning</a> accepted to the <a href='https://wvcl.vis.xyz/'>1st Workshop on Visual Continual Learning at ICCV 2023</a>!"
   },
