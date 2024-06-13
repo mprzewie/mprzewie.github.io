@@ -1,5 +1,21 @@
 [
     {
+        "year": "2023 / 2024",
+        "semesters": [
+            {
+                "name": "spring",
+                "classes": [
+                    {
+                        "name": "Wybrane Zagadnienia Uczenia Maszynowego",
+                        "when": "Tuesdays, 14:30",
+                        "where": "room 0016",
+                        "page": "https://github.com/gmum/wzum-24"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "year": "2022 / 2023",
         "semesters": [
             {

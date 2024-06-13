@@ -1,5 +1,14 @@
 [
   {
+    "title": "A deep cut into Split Federated Self-supervised Learning",
+    "authors":"Marcin Przewięźlikowski, Marcin Osial, Bartosz Zieliński, Marek Śmieja",
+    "published_at": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)",
+    "date": "September 2024",
+    "paper": "https://arxiv.org/abs/2406.08267",
+    "code":"https://github.com/gmum/MonAcoSFL",
+    "img": "monacosfl.png"
+  },
+  {
     "title": "The general framework for few-shot learning by kernel HyperNetworks",
     "authors":"Marcin Sendera, Marcin Przewiȩźlikowski, Jan Miksa, Mateusz Rajski, Konrad Karanowski, Maciej Ziȩba, Jacek Tabor, Przemysław Spurek",
     "published_at": "Machine Vision and Applications journal",
@@ -17,7 +26,7 @@
     "code":"https://github.com/gmum/few-shot-hypernets-public",
     "img": "hypershot.png",
     "poster": "https://drive.google.com/file/d/1VRsfc2AKA_08r9-JBLS3bguLOLDbpk4V/view",
-    "comment": "<a href='https://twitter.com/ilkedemir/status/1610779812020490241'>Paper Award finalist</a>"
+    "comment": "<a href='https://twitter.com/ilkedemir/status/1610779812020490241'>Best Paper Award finalist</a>"
   },
   {
     "title": "MisConv: Convolutional Neural Networks for Missing Data",

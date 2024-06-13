@@ -1,5 +1,13 @@
 [
   {
+    "date": "1.06.2024",
+    "content": "<a href='https://arxiv.org/abs/2406.08267'>A deep cut into Split Federated Self-supervised Learning</a> accepted to <a href='https://ecmlpkdd.org/2024/'>ECML PKDD 2024</a>. See you in Vilnius!"
+  },
+  {
+    "date": "4.03.2024",
+    "content": "<a href='https://arxiv.org/abs/2011.14620'>RegFlow: Probabilistic Flow-based Regression for Future Prediction</a> accepted to <a href='https://aciids.pwr.edu.pl/2024/index.php#about'>ACIIDS 2024</a>!"
+  },
+  {
     "date": "24.11.2023",
     "content": "I've been awarded the NCN PRELUDIUM 22 grant for project \"<a href='https://drive.google.com/file/d/1XGTwVnQCCJ7RGkc_7CFT-sh7vkmaDTTj/view'>Improving the transferability of self-supervised learning models</a>\"!",
     "more": "https://ncn.gov.pl/aktualnosci/2023-11-23-wyniki-opus22-preludium25"
