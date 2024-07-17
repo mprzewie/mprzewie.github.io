@@ -1,5 +1,14 @@
 [
   {
+    "title": "HyperMAML: Few-shot adaptation of deep models with hypernetworks",
+    "authors":"Marcin Przewięźlikowski, Przemysław Przybysz, Jacek Tabor, Maciej Zięba, Przemysław Spurek",
+    "published_at": "Neurocomputing journal",
+    "date": "July 2024",
+    "paper": "https://www.sciencedirect.com/science/article/pii/S0925231224009500",
+    "code":"https://github.com/gmum/few-shot-hypernets-public",
+    "img": "hypermaml.png"
+  },
+  {
     "title": "A deep cut into Split Federated Self-supervised Learning",
     "authors":"Marcin Przewięźlikowski, Marcin Osial, Bartosz Zieliński, Marek Śmieja",
     "published_at": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)",
