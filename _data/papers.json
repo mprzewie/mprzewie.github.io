@@ -1,5 +1,15 @@
 [
   {
+    "title": "Augmentation-aware self-supervised learning with conditioned projector",
+    "authors":"Marcin Przewięźlikowski, Mateusz Pyla, Bartosz Zieliński, Bartłomiej Twardowski, Jacek Tabor, Marek Śmieja",
+    "published_at": "Knowledge-based Systems journal",
+    "date": "November 2024",
+    "paper": "https://arxiv.org/abs/2306.06082",
+    "code":"https://github.com/gmum/CASSLE",
+    "img": "cassle.png",
+    "poster": "https://drive.google.com/file/d/1iFsDiXKdNvaXi8BKxw0WtI8g6BjydmAK/view?usp=sharing"
+  },
+  {
     "title": "HyperMAML: Few-shot adaptation of deep models with hypernetworks",
     "authors":"Marcin Przewięźlikowski, Przemysław Przybysz, Jacek Tabor, Maciej Zięba, Przemysław Spurek",
     "published_at": "Neurocomputing journal",
@@ -15,7 +25,8 @@
     "date": "September 2024",
     "paper": "https://arxiv.org/abs/2406.08267",
     "code":"https://github.com/gmum/MonAcoSFL",
-    "img": "monacosfl.png"
+    "img": "monacosfl.png",
+    "poster": "https://drive.google.com/file/d/1-HqeQaHlxRKwCJrC1Ve8UiujH77D98L-/view?usp=sharing"
   },
   {
     "title": "The general framework for few-shot learning by kernel HyperNetworks",
