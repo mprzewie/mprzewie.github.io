@@ -1,5 +1,19 @@
 [
   {
+    "date": "01.07.2025",
+    "content": "MLSS^D 2025 kicks off in Kraków!",
+    "more": "https://mlss2025.mlinpl.org/"
+  },
+  {
+    "date": "27.06.2025",
+    "content": "I was awarded the Polish Ministry Science and Higher Education scholarship for outstanding young scientists. The scholarship was awarded to 290 researchers in Poland, including 40 PhD students.",
+    "more": "https://www.gov.pl/web/nauka/ogloszenie-wynikow-postepowania-w-sprawie-przyznania-stypendiow-ministra-nauki-i-szkolnictwa-wyzszego-dla-wybitnych-mlodych-naukowcow-w-2025-r-edycja-20"
+  },
+  {
+    "date": "26.06.2025",
+    "content": "<a href='https://arxiv.org/abs/2412.03215'>Beyond [cls]: Exploring the true potential of Masked Image Modeling representations</a> accepted to <a href='https://iccv.thecvf.com/'>ICCV 2025</a>. See you in Honolulu!"
+  },
+  {
     "date": "5.11.2024",
     "content": "<a href=https://www.sciencedirect.com/science/article/pii/S0950705124012061'>Augmentation-aware self-supervised learning with conditioned projector</a> published in the Knowledge-based Systems journal!"
   },

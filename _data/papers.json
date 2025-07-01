@@ -1,4 +1,13 @@
 [
+    {
+    "title": "Beyond [cls]: Exploring the true potential of Masked Image Modeling representations",
+    "authors": "Marcin Przewięźlikowski, Randall Balestriero, Wojciech Jasiński, Marek Śmieja, Bartosz Zieliński",
+    "published_at": "International Conference on COmputer Vision (ICCV)",
+    "date": "October 2025",
+    "paper": "hhttps://arxiv.org/abs/2412.03215",
+    "code":"https://github.com/gmum/beyond_cls",
+    "img": "beyond_cls.png"
+  },
   {
     "title": "Augmentation-aware self-supervised learning with conditioned projector",
     "authors":"Marcin Przewięźlikowski, Mateusz Pyla, Bartosz Zieliński, Bartłomiej Twardowski, Jacek Tabor, Marek Śmieja",
