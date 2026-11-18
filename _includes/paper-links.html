@@ -1,0 +1,9 @@
+{%- assign p = include.paper -%}
+<ul class="links" aria-label="Links for {{ p.title | escape }}">
+  {%- if p.paper_url %}<li><a href="{{ p.paper_url }}">Paper</a></li>{% endif -%}
+  {%- if p.code_url %}<li><a href="{{ p.code_url }}">Code</a></li>{% endif -%}
+  {%- if p.project_url %}<li><a href="{{ p.project_url }}">Project page</a></li>{% endif -%}
+  {%- if p.dataset_url %}<li><a href="{{ p.dataset_url }}">Dataset</a></li>{% endif -%}
+  {%- if p.poster_url %}<li><a href="{{ p.poster_url }}">Poster</a></li>{% endif -%}
+  {%- for l in p.extra_links %}<li><a href="{{ l.url }}">{{ l.label }}</a></li>{% endfor -%}
+</ul>

@@ -1,0 +1,8 @@
+{%- comment -%} Venue badge (linked to the published version), status/award tags; full=true also prints the full venue name. {%- endcomment -%}
+{%- assign p = include.paper -%}
+<p class="paper-meta">
+  {% if p.venue_url %}<a class="venue" href="{{ p.venue_url }}" title="Published version">{{ p.venue }} {{ p.year }}</a>{% else %}<span class="venue">{{ p.venue }} {{ p.year }}</span>{% endif %}
+  {%- if p.status and p.status != "published" %} <span class="tag tag--status">{{ p.status | capitalize }}</span>{% endif -%}
+  {%- if p.award %} {% if p.award_url %}<a class="tag tag--award" href="{{ p.award_url }}">{{ p.award }}</a>{% else %}<span class="tag tag--award">{{ p.award }}</span>{% endif %}{% endif -%}
+  {%- if include.full and p.venue_full and p.venue_full != p.venue %} <span class="venue-full">{{ p.venue_full }}</span>{% endif -%}
+</p>

@@ -1,0 +1,25 @@
+{%- comment -%}
+  Featured paper card. Params: paper, variant ("stack" for the homepage grid, "row" for /publications),
+  anchor (true to give the card id="<paper id>").
+{%- endcomment -%}
+{%- assign p = include.paper -%}
+{%- assign short_title = p.title | split: ":" | first -%}
+{%- assign short_title = p.short_title | default: short_title -%}
+{%- assign default_alt = 'Overview figure for ' | append: short_title -%}
+<article class="paper-card paper-card--{{ include.variant | default: 'stack' }}"{% if include.anchor %} id="{{ p.id }}"{% endif %}>
+  <div class="paper-figure">
+    {%- if p.image -%}
+    <img src="{{ '/assets/img/pub/' | append: p.image | relative_url }}" alt="{{ p.image_alt | default: default_alt | escape }}" loading="lazy" decoding="async">
+    {%- else -%}
+    <span class="paper-figure__fallback" aria-hidden="true">{{ short_title }}</span>
+    {%- endif -%}
+  </div>
+  <div class="paper-body">
+    {% include paper-meta.html paper=p %}
+    <h3 class="paper-title"><a href="{{ p.paper_url | default: p.project_url }}">{{ p.title }}</a></h3>
+    {% if p.summary %}<p class="paper-summary">{{ p.summary }}</p>{% endif %}
+    <p class="authors">{% include authors.html authors=p.authors %}</p>
+    {% if p.note %}<p class="paper-note">{{ p.note }}</p>{% endif %}
+    {% include paper-links.html paper=p %}
+  </div>
+</article>

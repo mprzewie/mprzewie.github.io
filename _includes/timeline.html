@@ -1,0 +1,25 @@
+{%- comment -%}
+  Dated list for experience, education, awards and service.
+  Entries use `period` and `role` or `title`, plus optional `org`, `url`, `tag`, `text` and `show`.
+{%- endcomment -%}
+{%- assign entries = include.items | where_exp: "e", "e.show != false" -%}
+<ol class="timeline{% if include.compact %} timeline--compact{% endif %}">
+  {%- for e in entries %}
+  {%- assign heading = e.role | default: e.title %}
+  <li>
+    <span class="timeline__period">{{ e.period }}</span>
+    <div class="timeline__body">
+      <p class="timeline__heading">
+        {%- if e.url and e.org == nil %}<a href="{{ e.url }}">{{ heading }}</a>{% else %}{{ heading }}{% endif -%}
+        {%- if e.tag %} <span class="tag tag--status">{{ e.tag }}</span>{% endif -%}
+      </p>
+      {%- if e.org %}
+      <p class="timeline__org">{% if e.url %}<a href="{{ e.url }}">{{ e.org }}</a>{% else %}{{ e.org }}{% endif %}</p>
+      {%- endif %}
+      {%- if e.text %}
+      <p class="timeline__text">{{ e.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+      {%- endif %}
+    </div>
+  </li>
+  {%- endfor %}
+</ol>

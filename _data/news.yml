@@ -1,0 +1,155 @@
+# News. See README.md ("Add a news item").
+#
+# - `date`: ISO format (YYYY-MM-DD). Entries are sorted by date automatically,
+#   but keeping the newest at the top makes the file easier to scan.
+# - `text`: Markdown. Links look like [title](https://...).
+# - `url`: optional "more" link shown after the text.
+# - `home: false` keeps an item on /news but off the homepage.
+#   The homepage shows the newest `home_news_count` items (set in _config.yml).
+
+- date: 2026-11-13
+  text: >-
+    [SpaRRTa](https://sparrta.gmum.net/), our benchmark for spatial reasoning in visual
+    foundation models, is published in the *International Journal of Computer Vision*.
+  url: https://doi.org/10.1007/s11263-026-03112-7
+
+- date: 2026-11-12
+  text: >-
+    [SeBA](https://arxiv.org/abs/2605.08519), on semi-supervised few-shot learning for
+    tabular data, appears in the proceedings of SDM 2026 (Salt Lake City, November 19–20).
+  url: https://doi.org/10.1137/1.9781611979329.33
+
+- date: 2026-06-29
+  text: >-
+    The Machine Learning Summer School on Reliability & Safety starts in Kraków.
+    I am part of the programme team.
+  url: https://mlss2026.mlinpl.org/
+
+- date: 2025-07-01
+  text: >-
+    The Machine Learning Summer School on Drug and Materials Discovery, which I co-led,
+    starts in Kraków.
+  url: https://mlss2025.mlinpl.org/
+  home: false
+
+- date: 2025-06-27
+  text: >-
+    I received the Polish Minister of Science and Higher Education's scholarship for
+    outstanding young scientists, awarded to 290 researchers in Poland, including 40 PhD students.
+  url: https://www.gov.pl/web/nauka/ogloszenie-wynikow-postepowania-w-sprawie-przyznania-stypendiow-ministra-nauki-i-szkolnictwa-wyzszego-dla-wybitnych-mlodych-naukowcow-w-2025-r-edycja-20
+
+- date: 2025-06-26
+  text: >-
+    Our paper [Beyond \[CLS\]: Exploring the True Potential of Masked Image Modeling Representations](https://arxiv.org/abs/2412.03215)
+    is accepted to [ICCV 2025](https://iccv.thecvf.com/).
+
+- date: 2024-11-05
+  text: >-
+    [Augmentation-aware Self-supervised Learning with Conditioned Projector](https://arxiv.org/abs/2306.06082)
+    is published in *Knowledge-Based Systems*.
+
+- date: 2024-10-03
+  text: >-
+    Invited talk on self-supervised learning at the 33rd Economic Forum in Karpacz,
+    at the invitation of the Polish Ministry of Digital Affairs.
+  home: false
+
+- date: 2024-07-10
+  text: >-
+    [HyperMAML: Few-shot Adaptation of Deep Models with Hypernetworks](https://arxiv.org/abs/2205.15745)
+    is published in *Neurocomputing*.
+  home: false
+
+- date: 2024-06-01
+  text: >-
+    [A Deep Cut into Split Federated Self-supervised Learning](https://arxiv.org/abs/2406.08267)
+    is accepted to [ECML PKDD 2024](https://ecmlpkdd.org/2024/).
+  home: false
+
+- date: 2024-03-04
+  text: >-
+    [RegFlow: Probabilistic Flow-based Regression for Future Prediction](https://arxiv.org/abs/2011.14620)
+    is accepted to ACIIDS 2024.
+  home: false
+
+- date: 2023-11-24
+  text: >-
+    I was awarded an NCN PRELUDIUM 22 grant for the project
+    [Improving the transferability of self-supervised learning models](https://drive.google.com/file/d/1XGTwVnQCCJ7RGkc_7CFT-sh7vkmaDTTj/view).
+  url: https://ncn.gov.pl/aktualnosci/2023-11-23-wyniki-opus22-preludium25
+
+- date: 2023-11-11
+  text: >-
+    [Augmentation-aware Self-supervised Learning with Conditioned Projector](https://arxiv.org/abs/2306.06082)
+    is accepted to the [NeurIPS 2023 Workshop on Self-Supervised Learning: Theory and Practice](https://sslneurips23.github.io/).
+  home: false
+
+- date: 2023-10-24
+  text: >-
+    [Adapt Your Teacher: Improving Knowledge Distillation for Exemplar-free Continual Learning](https://arxiv.org/abs/2308.09544)
+    is accepted to WACV 2024.
+  home: false
+
+- date: 2023-10-13
+  text: >-
+    [Zero Time Waste in Pre-trained Early Exit Neural Networks](https://doi.org/10.1016/j.neunet.2023.10.003)
+    is published in *Neural Networks*.
+  home: false
+
+- date: 2023-10-02
+  text: >-
+    Starting a research visit at the [Computer Vision Center](https://www.cvc.uab.es/) in
+    Barcelona with prof. Joost van de Weijer, until December.
+  home: false
+
+- date: 2023-08-25
+  text: >-
+    [Adapt Your Teacher](https://arxiv.org/abs/2308.09544) is accepted to the
+    1st Workshop on Visual Continual Learning at ICCV 2023.
+  home: false
+
+- date: 2023-05-20
+  text: >-
+    [The General Framework for Few-shot Learning by Kernel HyperNetworks](https://doi.org/10.1007/s00138-023-01403-4)
+    is published in *Machine Vision and Applications*.
+  home: false
+
+- date: 2023-01-05
+  text: >-
+    [HyperShot: Few-Shot Learning by Kernel HyperNetworks](https://arxiv.org/abs/2203.11378)
+    is a Best Paper Award finalist at WACV 2023.
+  url: https://twitter.com/ilkedemir/status/1610779812020490241
+  home: false
+
+- date: 2022-10-04
+  text: >-
+    I joined IDEAS NCBR to work on zero-waste machine learning in computer vision, in the
+    group led by prof. Tomasz Trzciński.
+  home: false
+
+- date: 2022-08-16
+  text: >-
+    [HyperShot: Few-Shot Learning by Kernel HyperNetworks](https://arxiv.org/abs/2203.11378)
+    is accepted to WACV 2023.
+  home: false
+
+- date: 2021-10-11
+  text: >-
+    [MisConv: Convolutional Neural Networks for Missing Data](https://arxiv.org/abs/2110.14010)
+    is accepted to WACV 2022.
+  home: false
+
+- date: 2021-07-28
+  text: I completed my Master's degree in Computer Science at the Jagiellonian University.
+  home: false
+
+- date: 2021-06-19
+  text: ShelfWise is acquired by Form.com.
+  url: https://www.prnewswire.com/news-releases/form-acquires-shelfwise-image-recognition-technology-for-ai-powered-retail-execution-301335998.html
+  home: false
+
+- date: 2021-02-22
+  text: >-
+    I received the Polish Minister of Education and Science's scholarship for outstanding
+    students, awarded to 362 students in Poland.
+  home: false

@@ -1,0 +1,279 @@
+# Publications. See README.md ("Add a publication") for the field reference.
+#
+# - Keep entries newest first. The full list on /publications groups them by `year`
+#   and keeps this file's order within each year.
+# - `featured: true` shows a paper as a card under "Selected work" on the homepage,
+#   ordered by `featured_order`. Every paper also appears in the "All publications" list.
+# - `short_title` (optional) is used where space is tight; it defaults to the part of the
+#   title before the first colon.
+# - `authors` is one comma-separated string. Any name listed under `name_variants` in
+#   _data/profile.yml is highlighted automatically. Mark equal contribution with a
+#   trailing asterisk, e.g. "First Author*, Marcin Przewięźlikowski*".
+# - `image` is a file name inside assets/img/pub/.
+# - `paper_url` is the arXiv version when there is one, otherwise the published version.
+#   `venue_url` is the published version (CVF Open Access or DOI); the venue badge links to it.
+# - `status`: published (default, not shown), accepted, preprint, or under review.
+#   Only list a paper as accepted/published once that is official.
+
+- id: sparrta
+  title: "SpaRRTa: A Synthetic Benchmark for Evaluating Spatial Intelligence in Visual Foundation Models"
+  authors: "Turhan Can Kargin, Wojciech Jasiński, Adam Pardyl, Bartosz Zieliński, Marcin Przewięźlikowski"
+  venue: IJCV
+  venue_full: International Journal of Computer Vision
+  year: 2026
+  date: 2026-11-13
+  status: published
+  summary: >-
+    Do frozen visual foundation models know where objects are relative to each other, from
+    the camera's viewpoint and from another observer's? SpaRRTa probes this with
+    photorealistic scenes with controllable object arrangements and free spatial
+    annotations, and finds large differences in spatial awareness across popular models.
+  note: Also presented at the 2nd Workshop on World Models, ICLR 2026.
+  image: sparrta.webp
+  paper_url: https://arxiv.org/abs/2601.11729
+  venue_url: https://doi.org/10.1007/s11263-026-03112-7
+  code_url: https://github.com/gmum/SpaRRTa
+  project_url: https://sparrta.gmum.net/
+  dataset_url: https://huggingface.co/datasets/turhancan97/SpaRRTa
+  featured: true
+  featured_order: 2
+
+- id: seba
+  title: "SeBA: Semi-supervised Few-shot Learning via Separated-at-Birth Alignment for Tabular Data"
+  authors: "Kacper Jurek, Wojciech Batko, Marek Śmieja, Marcin Przewięźlikowski"
+  venue: SDM
+  venue_full: SIAM International Conference on Data Mining
+  year: 2026
+  date: 2026-11-12
+  status: published
+  summary: >-
+    A joint-embedding approach to semi-supervised few-shot learning on tabular data that
+    needs no hand-crafted augmentations: each sample is split into two complementary views,
+    and the representations of one view are aligned with the nearest-neighbour structure
+    of the other.
+  note: A short version appeared at the EurIPS 2025 Workshop on AI for Tabular Data.
+  image: seba.webp
+  paper_url: https://arxiv.org/abs/2605.08519
+  venue_url: https://doi.org/10.1137/1.9781611979329.33
+
+- id: wildmatch
+  title: "WildMatch: Weakly Supervised Image Matcher Adaptation for Wildlife Re-Identification"
+  authors: "Turhan Can Kargin, Piotr Kubaty, Ekaterina Rostovskaya, Izabela Wierzbowska, Bartosz Zieliński, Marcin Przewięźlikowski"
+  venue: arXiv
+  year: 2026
+  date: 2026-10-05
+  status: preprint
+  paper_url: https://arxiv.org/abs/2610.07384
+  project_url: https://wildmatch.gmum.net
+
+- id: achc
+  title: "Adaptive Contrastive Hierarchical Clustering with Nodes Visualization"
+  authors: "Mateusz Pach, Przemysław Rola, Michał Znalezniak, Patryk Kaszuba, Marcin Przewięźlikowski, Jacek Tabor, Marek Śmieja"
+  venue: AIR
+  venue_full: Artificial Intelligence Review
+  year: 2026
+  date: 2026-01-29
+  status: published
+  paper_url: https://doi.org/10.1007/s10462-026-11490-0
+  venue_url: https://doi.org/10.1007/s10462-026-11490-0
+
+- id: hyperplanes
+  title: "Hypernetwork Approach to Rapid NeRF Adaptation"
+  authors: "Paweł Batorski, Dawid Malarz, Marcin Przewięźlikowski, Marcin Mazur, Sławomir Tadeja, Przemysław Spurek"
+  venue: KBS
+  venue_full: Knowledge-Based Systems
+  year: 2026
+  status: published
+  paper_url: https://arxiv.org/abs/2402.01524
+  venue_url: https://doi.org/10.1016/j.knosys.2025.114861
+  code_url: https://github.com/gmum/HyperPlanes
+
+- id: phd-thesis
+  title: "Data-Efficient Representation Learning and Adaptation"
+  authors: "Marcin Przewięźlikowski"
+  venue: PhD thesis
+  venue_full: Jagiellonian University, advised by prof. Marek Śmieja
+  year: 2026
+  status: published
+  paper_url: https://ruj.uj.edu.pl/server/api/core/bitstreams/49acf121-2a2e-43e5-b4b5-63175a992873/content
+
+- id: beyond-cls
+  title: "Beyond [CLS]: Exploring the True Potential of Masked Image Modeling Representations"
+  authors: "Marcin Przewięźlikowski, Randall Balestriero, Wojciech Jasiński, Marek Śmieja, Bartosz Zieliński"
+  venue: ICCV
+  venue_full: IEEE/CVF International Conference on Computer Vision
+  year: 2025
+  date: 2025-10-19
+  status: published
+  summary: >-
+    Why do masked image models look weak out of the box? Their attention is spread almost
+    uniformly over patches, so the [CLS] token aggregates them poorly. Selective
+    Aggregation makes better use of the semantic information already present in the
+    patch tokens.
+  note: Also presented at the UniReps Workshop at NeurIPS 2025.
+  image: beyond_cls.webp
+  paper_url: https://arxiv.org/abs/2412.03215
+  venue_url: https://openaccess.thecvf.com/content/ICCV2025/html/Przewiezlikowski_Beyond_cls_Exploring_the_True_Potential_of_Masked_Image_Modeling_ICCV_2025_paper.html
+  code_url: https://github.com/gmum/beyond_cls
+  featured: true
+  featured_order: 1
+
+- id: bayesian-hypermaml
+  title: "Hypernetwork Approach to Bayesian MAML (Student Abstract)"
+  authors: "Piotr Borycki, Piotr Kubacki, Marcin Przewięźlikowski, Tomasz Kuśmierczyk, Jacek Tabor, Przemysław Spurek"
+  venue: AAAI
+  venue_full: AAAI Conference on Artificial Intelligence, Student Abstract track
+  year: 2025
+  date: 2025-04-11
+  status: published
+  paper_url: https://arxiv.org/abs/2210.02796
+  venue_url: https://doi.org/10.1609/aaai.v39i28.35239
+
+- id: cassle
+  short_title: CASSLE
+  title: "Augmentation-aware Self-supervised Learning with Conditioned Projector"
+  authors: "Marcin Przewięźlikowski, Mateusz Pyla, Bartosz Zieliński, Bartłomiej Twardowski, Jacek Tabor, Marek Śmieja"
+  venue: KBS
+  venue_full: Knowledge-Based Systems
+  year: 2024
+  date: 2024-11-05
+  status: published
+  summary: >-
+    Invariance to augmentations can discard information that downstream tasks need, such
+    as colour. CASSLE conditions the projector on the applied augmentations, so the encoder
+    keeps that information. It works with common joint-embedding SSL methods without
+    architectural changes.
+  note: A short version appeared at the NeurIPS 2023 Workshop on Self-Supervised Learning.
+  image: cassle.webp
+  paper_url: https://arxiv.org/abs/2306.06082
+  venue_url: https://doi.org/10.1016/j.knosys.2024.112572
+  code_url: https://github.com/gmum/CASSLE
+  poster_url: https://drive.google.com/file/d/1iFsDiXKdNvaXi8BKxw0WtI8g6BjydmAK/view?usp=sharing
+  featured: true
+  featured_order: 3
+
+- id: monacosfl
+  title: "A Deep Cut into Split Federated Self-supervised Learning"
+  authors: "Marcin Przewięźlikowski, Marcin Osial, Bartosz Zieliński, Marek Śmieja"
+  venue: ECML PKDD
+  venue_full: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
+  year: 2024
+  status: published
+  image: monacosfl.webp
+  paper_url: https://arxiv.org/abs/2406.08267
+  venue_url: https://doi.org/10.1007/978-3-031-70344-7_26
+  code_url: https://github.com/gmum/MonAcoSFL
+  poster_url: https://drive.google.com/file/d/1-HqeQaHlxRKwCJrC1Ve8UiujH77D98L-/view?usp=sharing
+
+- id: hypermaml
+  title: "HyperMAML: Few-shot Adaptation of Deep Models with Hypernetworks"
+  authors: "Marcin Przewięźlikowski*, Przemysław Przybysz*, Jacek Tabor, Maciej Zięba, Przemysław Spurek"
+  venue: Neurocomputing
+  venue_full: Neurocomputing
+  year: 2024
+  date: 2024-07-10
+  status: published
+  image: hypermaml.webp
+  paper_url: https://arxiv.org/abs/2205.15745
+  venue_url: https://doi.org/10.1016/j.neucom.2024.128179
+  code_url: https://github.com/gmum/few-shot-hypernets-public
+
+- id: regflow
+  title: "RegFlow: Probabilistic Flow-based Regression for Future Prediction"
+  authors: "Maciej Zięba, Marcin Przewięźlikowski, Marek Śmieja, Jacek Tabor, Tomasz Trzciński, Przemysław Spurek"
+  venue: ACIIDS
+  venue_full: Asian Conference on Intelligent Information and Database Systems
+  year: 2024
+  status: published
+  paper_url: https://arxiv.org/abs/2011.14620
+  venue_url: https://doi.org/10.1007/978-981-97-5934-7_23
+
+- id: adapt-your-teacher
+  title: "Adapt Your Teacher: Improving Knowledge Distillation for Exemplar-free Continual Learning"
+  authors: "Filip Szatkowski, Mateusz Pyla, Marcin Przewięźlikowski, Sebastian Cygert, Bartłomiej Twardowski, Tomasz Trzciński"
+  venue: WACV
+  venue_full: IEEE/CVF Winter Conference on Applications of Computer Vision
+  year: 2024
+  date: 2024-01-03
+  status: published
+  paper_url: https://arxiv.org/abs/2308.09544
+  venue_url: https://openaccess.thecvf.com/content/WACV2024/html/Szatkowski_Adapt_Your_Teacher_Improving_Knowledge_Distillation_for_Exemplar-Free_Continual_Learning_WACV_2024_paper.html
+  code_url: https://github.com/fszatkowski/cl-teacher-adaptation
+
+- id: zero-time-waste
+  title: "Zero Time Waste in Pre-trained Early Exit Neural Networks"
+  authors: "Bartosz Wójcik, Marcin Przewięźlikowski, Filip Szatkowski, Maciej Wołczyk, Klaudia Bałazy, Bartłomiej Krzepkowski, Igor Podolak, Jacek Tabor, Marek Śmieja, Tomasz Trzciński"
+  venue: Neural Networks
+  venue_full: Neural Networks
+  year: 2023
+  date: 2023-10-13
+  status: published
+  paper_url: https://doi.org/10.1016/j.neunet.2023.10.003
+  venue_url: https://doi.org/10.1016/j.neunet.2023.10.003
+  code_url: https://github.com/gmum/Zero-Time-Waste
+
+- id: bayesian-hypershot
+  title: "The General Framework for Few-shot Learning by Kernel HyperNetworks"
+  authors: "Marcin Sendera*, Marcin Przewięźlikowski*, Jan Miksa, Mateusz Rajski, Konrad Karanowski, Maciej Zięba, Jacek Tabor, Przemysław Spurek"
+  venue: MVA
+  venue_full: Machine Vision and Applications
+  year: 2023
+  date: 2023-05-20
+  status: published
+  image: bayesianhypershot.webp
+  paper_url: https://doi.org/10.1007/s00138-023-01403-4
+  venue_url: https://doi.org/10.1007/s00138-023-01403-4
+  code_url: https://github.com/gmum/few-shot-hypernets-public
+
+- id: hypershot
+  title: "HyperShot: Few-Shot Learning by Kernel HyperNetworks"
+  authors: "Marcin Sendera*, Marcin Przewięźlikowski*, Konrad Karanowski, Maciej Zięba, Jacek Tabor, Przemysław Spurek"
+  venue: WACV
+  venue_full: IEEE/CVF Winter Conference on Applications of Computer Vision
+  year: 2023
+  status: published
+  paper_url: https://arxiv.org/abs/2203.11378
+  venue_url: https://openaccess.thecvf.com/content/WACV2023/html/Sendera_HyperShot_Few-Shot_Learning_by_Kernel_HyperNetworks_WACV_2023_paper.html
+  award: Best Paper Award finalist
+  award_url: https://twitter.com/ilkedemir/status/1610779812020490241
+  image: hypershot.webp
+  code_url: https://github.com/gmum/few-shot-hypernets-public
+  poster_url: https://drive.google.com/file/d/1VRsfc2AKA_08r9-JBLS3bguLOLDbpk4V/view
+
+- id: misconv
+  title: "MisConv: Convolutional Neural Networks for Missing Data"
+  authors: "Marcin Przewięźlikowski, Marek Śmieja, Łukasz Struski, Jacek Tabor"
+  venue: WACV
+  venue_full: IEEE/CVF Winter Conference on Applications of Computer Vision
+  year: 2022
+  status: published
+  image: misconv.webp
+  paper_url: https://arxiv.org/abs/2110.14010
+  venue_url: https://openaccess.thecvf.com/content/WACV2022/html/Przewiezlikowski_MisConv_Convolutional_Neural_Networks_for_Missing_Data_WACV_2022_paper.html
+  code_url: https://github.com/mprzewie/dmfa_inpainting
+  poster_url: https://drive.google.com/file/d/15ubeEzVArDs3XUOPeeuT31nGu8zSPSf-/view?usp=sharing
+
+- id: dmfa
+  title: "Estimating Conditional Density of Missing Values Using Deep Gaussian Mixture Model"
+  authors: "Marcin Przewięźlikowski, Marek Śmieja, Łukasz Struski"
+  venue: ICONIP
+  venue_full: International Conference on Neural Information Processing
+  year: 2020
+  status: published
+  image: dmfa.webp
+  paper_url: https://arxiv.org/abs/2010.02183
+  venue_url: https://doi.org/10.1007/978-3-030-63836-8_19
+  code_url: https://github.com/mprzewie/dmfa_inpainting
+
+- id: acausalnets
+  title: "Support for High-Level Quantum Bayesian Inference"
+  authors: "Marcin Przewięźlikowski, Michał Grabowski, Dariusz Kurzyk, Katarzyna Rycerz"
+  venue: ICCS
+  venue_full: International Conference on Computational Science
+  year: 2019
+  status: published
+  image: acausalnets.webp
+  paper_url: https://doi.org/10.1007/978-3-030-22750-0_76
+  venue_url: https://doi.org/10.1007/978-3-030-22750-0_76
+  code_url: https://github.com/mikegpl/AcausalNets.jl
+  poster_url: https://docs.google.com/presentation/d/1XnXwIKJXxeaUXYBIgTr6rqcqEPXTxpaB9RRN9ARCgEg/edit?usp=sharing

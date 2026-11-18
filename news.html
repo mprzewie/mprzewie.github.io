@@ -1,0 +1,12 @@
+---
+title: News
+description: News and announcements from Marcin Przewięźlikowski.
+---
+{%- assign by_year = site.data.news | group_by_exp: "n", "n.date | date: '%Y'" | sort: "name" | reverse -%}
+{%- for group in by_year %}
+<section class="news-year" aria-labelledby="news-{{ group.name }}">
+  <h2 id="news-{{ group.name }}" class="news-year__label">{{ group.name }}</h2>
+  {%- assign items = group.items | sort: "date" | reverse %}
+  {% include news-list.html items=items %}
+</section>
+{%- endfor %}

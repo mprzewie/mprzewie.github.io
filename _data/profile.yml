@@ -1,0 +1,77 @@
+# Who you are, as shown on the homepage and in page footers.
+# Edit text here instead of in the layouts.
+
+name: Marcin Przewięźlikowski
+
+# Spellings of your name that appear in author lists; all are highlighted.
+name_variants:
+  - Marcin Przewięźlikowski
+  - Marcin Przewiȩźlikowski
+  - Marcin Przewiezlikowski
+
+# Small keyword line above the name.
+keywords: AI research · Self-supervised learning · World models
+
+# Large headline under the name.
+headline: Learning to understand and predict the world without labels.
+
+role: AI researcher
+location: Kraków, Poland
+
+# Current affiliation shown in the header. Add more items to show more than one.
+affiliations:
+  - group: GMUM
+    group_url: https://gmum.net/
+    org: Jagiellonian University
+    org_url: https://en.uj.edu.pl/en_GB
+
+email: marcin.przewiezlikowski@uj.edu.pl
+cv: /marcin_przewiezlikowski.pdf
+
+photo: /assets/img/portrait.jpg
+photo_webp: /assets/img/portrait.webp
+photo_alt: Portrait of Marcin Przewięźlikowski
+
+links:
+  scholar: https://scholar.google.com/citations?user=yQkER-MAAAAJ
+  github: https://github.com/mprzewie
+  linkedin: https://www.linkedin.com/in/marcin-przewi%C4%99%C5%BAlikowski-aa5b82135/
+  x: https://x.com/pszwnzl
+
+# Opening paragraphs of the Research section (Markdown).
+bio: |
+  My research is about learning representations of the visual world without human labels.
+  I study what self-supervised models actually learn, how to make their representations
+  more useful and spatially aware, and how to adapt them to new tasks with little data.
+  The long-term goal is world models that understand their surroundings well enough to
+  predict how they change.
+
+  I've also spent four years as an ML engineer, shipping production computer vision for
+  retail. I've submitted my PhD thesis at the Jagiellonian University and will defend it
+  in December 2026.
+
+# Research theme cards under the bio, left to right. `papers` lists paper ids from
+# papers.yml: featured papers link to their card, others to the paper itself.
+themes:
+  - title: Self-supervised learning
+    text: >-
+      Learning visual representations without labels, and understanding what those
+      representations capture.
+    papers: [beyond-cls, cassle]
+  - title: World models
+    text: >-
+      Spatially aware representations that capture how the world is structured and how it
+      changes.
+    papers: [sparrta]
+  - title: Data efficiency
+    text: >-
+      Adapting models to new tasks and domains with as few labels as possible.
+    papers: [hypershot, seba]
+
+# Venues shown as a single line under the selected publications.
+published_at: ICCV · IJCV · WACV · ECML PKDD · SDM · Knowledge-Based Systems · Neurocomputing
+
+# Text of the Contact section (Markdown).
+contact: >-
+  I'm happy to talk about self-supervised learning, world models, research collaborations
+  and interesting research opportunities. Email is the best way to reach me.

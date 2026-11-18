@@ -1,0 +1,115 @@
+# Experience, education, recognition and service shown on the homepage.
+# See README.md ("Update a job position").
+#
+# Every list is shown in file order, so keep the newest first.
+# `period` is free text, e.g. "Mar 2026 – now", "2023". `text` may contain Markdown links.
+# `tag` (optional) adds a small label, e.g. Industry.
+# `show: false` keeps an entry in this file without displaying it.
+# `reviewing` and `teaching` at the bottom are plain text, without dates.
+
+experience:
+  - period: Mar 2026 – now
+    role: Research Assistant
+    org: GMUM, Jagiellonian University
+    url: https://gmum.net/
+    text: >-
+      Visual foundation models and world models, and computer vision for identifying
+      individual lynxes in Polish national parks.
+  - period: 2024 – 2026
+    role: Principal Investigator, NCN PRELUDIUM 22 grant
+    org: Jagiellonian University
+    url: https://ncn.gov.pl/aktualnosci/2023-11-23-wyniki-opus22-preludium25
+    text: >-
+      Reducing the biases that pretraining objectives build into self-supervised models, so
+      they transfer better with less labelled data.
+  - period: 2024 – now
+    role: Research collaboration with dr Randall Balestriero
+    org: Brown University
+    url: https://randallbalestriero.github.io/
+    text: >-
+      Joint research on self-supervised representations, including Beyond [CLS] (ICCV
+      2025). Visiting researcher and guest lecturer at Brown in 2025.
+  - period: "2023"
+    role: Research internship with prof. Joost van de Weijer and dr Bartłomiej Twardowski
+    org: Computer Vision Center, Barcelona
+    url: https://www.cvc.uab.es/
+    text: >-
+      Studied which properties make visual encoders useful for continual learning, and
+      worked on CASSLE.
+  - period: 2022 – 2025
+    role: PhD researcher, Zero-Waste Machine Learning in Computer Vision
+    org: IDEAS NCBR
+    url: https://ideas-ncbr.pl/en/
+    text: >-
+      Data-efficient and self-supervised learning in prof. Tomasz Trzciński's group,
+      including federated and video settings.
+  - period: 2018 – 2022
+    role: Machine Learning Engineer
+    org: ShelfWise (acquired by FORM.com)
+    tag: Industry
+    text: >-
+      Built and maintained a production object-detection system for retail, used daily by
+      thousands of sales representatives at companies including Anheuser-Busch and
+      Heineken; research on visual search and few-shot classification.
+  - period: "2017"
+    role: Software Developer Intern
+    org: Amazon Development Centre Poland
+    tag: Industry
+    text: Deep learning for text processing and analysis.
+
+education:
+  - period: 2021 – 2026
+    role: PhD in Computer Science
+    org: Jagiellonian University, advised by prof. Marek Śmieja
+    text: >-
+      Thesis: [Data-Efficient Representation Learning and Adaptation](https://ruj.uj.edu.pl/server/api/core/bitstreams/49acf121-2a2e-43e5-b4b5-63175a992873/content),
+      defence in December 2026.
+  - period: 2019 – 2021
+    role: MSc in Computer Science (Machine Learning)
+    org: Jagiellonian University
+  - period: 2015 – 2019
+    role: BEng in Computer Science
+    org: AGH University of Science and Technology
+
+grants_awards:
+  - period: 2025 – 2028
+    title: Minister of Science and Higher Education scholarship for outstanding young scientists
+    text: The only PhD student awarded in computer science.
+    url: https://www.gov.pl/web/nauka/ogloszenie-wynikow-postepowania-w-sprawie-przyznania-stypendiow-ministra-nauki-i-szkolnictwa-wyzszego-dla-wybitnych-mlodych-naukowcow-w-2025-r-edycja-20
+  - period: 2024 – 2026
+    title: Excellence Module award, Jagiellonian University Excellence Initiative
+  - period: "2023"
+    title: NCN PRELUDIUM 22 grant, as principal investigator
+    text: 10.7% acceptance rate.
+    url: https://ncn.gov.pl/aktualnosci/2023-11-23-wyniki-opus22-preludium25
+  - period: "2023"
+    title: Best Paper Award finalist, WACV 2023
+    url: https://twitter.com/ilkedemir/status/1610779812020490241
+  - period: 2022 – 2026
+    title: Funded researcher on NCN OPUS and SONATA BIS grants; co-investigator on an NCN PRELUDIUM grant
+  - period: "2021"
+    title: Minister of Education and Science scholarship for outstanding students
+    text: Awarded to the top 16 computer science students in Poland.
+
+service:
+  - period: "2026"
+    title: Programme team, Machine Learning Summer School on Reliability & Safety
+    url: https://mlss2026.mlinpl.org/
+  - period: "2025"
+    title: Co-project leader, Machine Learning Summer School on Drug and Materials Discovery
+    url: https://mlss2025.mlinpl.org/
+  - period: "2024"
+    title: Invited talk on self-supervised learning, 33rd Economic Forum, Karpacz
+  - period: "2023"
+    title: Organiser, Machine Learning Summer School on Applications in Science
+
+# Un-dated summaries shown under the Community list (Markdown).
+reviewing: >-
+  NeurIPS, ICLR, CVPR, ECCV, AAAI, AISTATS, BMVC, WACV and ECAI; the *International Journal of Computer
+  Vision*, *Neurocomputing* and *Scientific Reports*; and workshops on world modeling,
+  unifying representations (NeurIPS) and self-supervised learning (NeurIPS).
+teaching: >-
+  Guest lectures on self-supervised learning at Brown University; courses on machine learning
+  and effective Python programming at the Jagiellonian University; and, as head of the AI section of the
+  [BIT Scientific Group](https://github.com/aghbit/BIT_AI) at AGH, 20+ introductory machine
+  learning workshops.

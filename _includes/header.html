@@ -1,0 +1,21 @@
+{%- assign home = '/' | relative_url -%}
+{%- assign nav = "Research:research,Publications:publications,Experience:experience,News:news,Contact:contact" | split: "," -%}
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="site-name" href="{{ home }}">{{ site.data.profile.name }}</a>
+    <nav aria-label="Main">
+      <ul>
+        {%- for item in nav -%}
+        {%- assign parts = item | split: ":" -%}
+        {%- if parts[1] == "news" and page.url contains "news" -%}
+        <li><a href="{{ '/news' | relative_url }}" aria-current="page">{{ parts[0] }}</a></li>
+        {%- else -%}
+        <li><a href="{{ home }}#{{ parts[1] }}">{{ parts[0] }}</a></li>
+        {%- endif -%}
+        {%- endfor -%}
+        {%- if site.data.profile.cv %}<li><a class="nav-cv" href="{{ site.data.profile.cv | relative_url }}">CV</a></li>{% endif %}
+        <li><button class="theme-toggle" type="button" aria-label="Switch to dark theme" hidden>{% include icon.html name="moon" %}{% include icon.html name="sun" %}</button></li>
+      </ul>
+    </nav>
+  </div>
+</header>

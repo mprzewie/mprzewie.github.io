@@ -1,0 +1,10 @@
+{%- comment -%} Params: items (news entries, already sorted), limit (optional). {%- endcomment -%}
+{%- assign lim = include.limit | default: 1000 -%}
+<ol class="news">
+  {%- for n in include.items limit: lim %}
+  <li class="news-item">
+    <time datetime="{{ n.date | date: '%Y-%m-%d' }}">{{ n.date | date: "%-d %b %Y" }}</time>
+    <p>{{ n.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% if n.url %} <a class="more" href="{{ n.url }}">More<span class="visually-hidden">: {{ n.text | markdownify | strip_html | truncatewords: 6 | escape }}</span></a>{% endif %}</p>
+  </li>
+  {%- endfor %}
+</ol>

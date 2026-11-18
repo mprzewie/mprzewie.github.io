@@ -1,0 +1,8 @@
+{%- assign p = site.data.profile -%}
+<ul class="social{% if include.compact %} social--compact{% endif %}">
+  {%- if p.links.scholar %}<li><a href="{{ p.links.scholar }}">{% include icon.html name="scholar" %}<span>Google Scholar</span></a></li>{% endif -%}
+  {%- if p.links.github %}<li><a href="{{ p.links.github }}">{% include icon.html name="github" %}<span>GitHub</span></a></li>{% endif -%}
+  {%- if p.links.linkedin %}<li><a href="{{ p.links.linkedin }}">{% include icon.html name="linkedin" %}<span>LinkedIn</span></a></li>{% endif -%}
+  {%- if p.links.x %}<li><a href="{{ p.links.x }}">{% include icon.html name="x" %}<span>X</span></a></li>{% endif -%}
+  {%- if p.email and include.email != false %}<li><a href="mailto:{{ p.email }}">{% include icon.html name="mail" %}<span>Email</span></a></li>{% endif -%}
+</ul>

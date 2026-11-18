@@ -1,0 +1,13 @@
+{%- comment -%}
+  Renders a comma-separated author string, highlighting profile.name_variants.
+  A trailing "*" on a name marks equal contribution.
+{%- endcomment -%}
+{%- assign names = include.authors | split: "," -%}
+{%- for a in names -%}
+{%- assign n = a | strip -%}
+{%- assign star = false -%}
+{%- if n contains "*" %}{% assign star = true %}{% assign n = n | remove: "*" | strip %}{% endif -%}
+{%- if site.data.profile.name_variants contains n -%}<span class="me">{{ n }}</span>{%- else -%}{{ n }}{%- endif -%}
+{%- if star %}<sup class="equal" title="Equal contribution">*</sup>{% endif -%}
+{%- unless forloop.last %}, {% endunless -%}
+{%- endfor -%}
