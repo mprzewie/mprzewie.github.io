@@ -18,6 +18,7 @@
     [SeBA](https://arxiv.org/abs/2605.08519), on semi-supervised few-shot learning for
     tabular data, appears in the proceedings of SDM 2026 (Salt Lake City, November 19–20).
   url: https://doi.org/10.1137/1.9781611979329.33
+  home: false
 
 - date: 2026-06-29
   text: >-
